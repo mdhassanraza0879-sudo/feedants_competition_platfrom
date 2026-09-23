@@ -4,6 +4,7 @@
   "description": "Feedants Competition Platform - Full Stack Monorepo",
   "scripts": {
     "dev": "npm --prefix mobile run web",
+    "build": "echo 'Static build ready'",
     "start": "npm --prefix mobile run web",
     "dev:backend": "npm --prefix backend run dev",
     "dev:mobile": "npm --prefix mobile run web",

@@ -14,11 +14,12 @@ pnpm-debug.log*
 *.env
 
 # Build outputs & caches
-dist/
 build/
 .expo/
 web-build/
 *.tsbuildinfo
+!mobile/dist/**
+!web/dist/**
 
 # OS files
 .DS_Store
