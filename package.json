@@ -1,0 +1,26 @@
+{
+  "name": "feedants-competition-platform",
+  "version": "1.0.0",
+  "description": "Feedants Competition Platform - Full Stack Monorepo",
+  "scripts": {
+    "dev": "npm --prefix mobile run web",
+    "start": "npm --prefix mobile run web",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:mobile": "npm --prefix mobile run web",
+    "mobile:start": "npm --prefix mobile run start",
+    "mobile:web": "npm --prefix mobile run web",
+    "mobile:android": "npm --prefix mobile run android",
+    "mobile:ios": "npm --prefix mobile run ios",
+    "test:concurrency": "npm --prefix backend run test:concurrency",
+    "seed": "npm --prefix backend run seed"
+  },
+  "keywords": [
+    "feedants",
+    "react-native",
+    "expo",
+    "express",
+    "mongodb"
+  ],
+  "author": "Feedants Candidate",
+  "license": "MIT"
+}
